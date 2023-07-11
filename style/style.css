@@ -1,0 +1,100 @@
+/* Header start */
+.header {
+    /* width: 100%; */
+    /* height: 720px; */
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 25px 25px 0px 75px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 px;
+}
+
+.btn-details {
+    background: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+
+.banner .banner-pic {
+    width: 500px;
+}
+
+/* Header End */
+
+/* Section Start */
+.hot-deal {
+    background-color: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    /* width: 100%; */
+    display: flex;
+
+
+
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.text-style {
+    color: #E55473;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 50px;
+    text-align: center;
+}
+
+.section-btn {
+    text-align: center;
+}
+
+.section-pic {
+    padding: 20px;
+}
+
+.media-title {
+    text-align: center;
+}
+
+.div-pic {
+    display: flex;
+
+}
+
+.div-pic-style {
+    width: 280px;
+    height: 320px;
+    padding: 15px;
+}
+.div-pic-style:hover{
+    
+}
+/* Section End */
