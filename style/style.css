@@ -1,7 +1,5 @@
 /* Header start */
 .header {
-    /* width: 100%; */
-    /* height: 720px; */
     background: rgba(229, 84, 115, 0.10);
 
 }
@@ -46,12 +44,11 @@
 .hot-deal {
     background-color: rgba(229, 84, 115, 0.05);
     align-items: center;
-    /* width: 100%; */
     display: flex;
-
-
-
+    padding: auto;
 }
+
+
 
 .hot-deal-title {
     color: #272727;
@@ -68,7 +65,7 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
-    padding: 50px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -78,6 +75,66 @@
 
 .section-pic {
     padding: 20px;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 350px;
+    border: 1 px solid black;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.box1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 220px;
+    height: 180px;
+    padding: 30px;
+    margin: 5px;
+
+}
+
+.box2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 220px;
+    height: 180px;
+    padding: 30px;
+    margin: 5px;
+
+}
+
+.box3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 210px;
+    height: 180px;
+    padding: 30px;
+    margin: 5px;
+
+}
+
+.img-name {
+    text-align: center;
+
+}
+
+.a1 {
+    padding-left: 80px;
+    padding-right: 150px;
+}
+
+.a2 {
+    padding-left: 0px;
+    padding-right: 150px;
+}
+
+.a3 {
+    padding-left: 10px;
+    padding-right: 80px;
 }
 
 .media-title {
@@ -98,10 +155,6 @@
     padding: 15px;
 }
 
-/* .div-pic-style:hover{
-    outline-offset:5px;
-    box-shadow: #272727;
-} */
 
 .section-view {
     background-image: url('../flower\ asset/Rectangle 9.png');
@@ -152,3 +205,5 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+/* Footer End */
